@@ -11,8 +11,8 @@ const IMG_WIDTH = 94;
 const IMG_HEIGHT = 42;
 
 // Assign a random X and Y initial speed between 1.5 and 1
-var speedX = 1.5 - Math.random() / 2;
-var speedY = 1.5 - Math.random() / 2;
+var speedX = 3 - Math.random() / 2;
+var speedY = 3 - Math.random() / 2;
 // The logo X and Y position
 var posX = 0;
 var posY = 0;
