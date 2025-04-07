@@ -45,6 +45,7 @@ function changeColor() {
   currentColor = newColor;
   g.setColor(newColor);
 }
+if (currentColor == "#0000ff") {changeColor()}
 // Draw the logo
 function draw() {
   // Move it
