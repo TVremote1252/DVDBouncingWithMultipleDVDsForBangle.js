@@ -39,13 +39,12 @@ function getNewColor() {
 // and different from the bg
 function changeColor() {
   var newColor = getNewColor();
-  while (newColor == currentColor || newColor == "#000000") {
+  while (newColor == currentColor || newColor == "#000000" || newColor == "#0000ff") {
     newColor = getNewColor();
   }
   currentColor = newColor;
   g.setColor(newColor);
 }
-
 // Draw the logo
 function draw() {
   // Move it
