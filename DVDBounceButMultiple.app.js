@@ -95,14 +95,15 @@ function draw() {
   }, 15);
 }
 
-// Set the background to black
-g.setBgColor(0, 0, 0);
+// Set the background to blue
+g.setBgColor(0, 0, 255);
 // Start from purple
 g.setColor(currentColor);
 // Clear the screen
 g.clear();
 // Start drawing
 draw();
+set
 draw();
 
 // Exit on button press
